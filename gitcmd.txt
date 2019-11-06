@@ -1,0 +1,23 @@
+https://github.com/Swagatha/spring001.git
+swagatha.chatterjee@cognizant.com
+sw@t11ch
+git branch
+ master
+  spbtwk2
+* sprbtwk2
+
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+Create a new branch:
+	git checkout -b feature_branch_name
+Edit, add and commit your files.
+Push your branch to the remote repository:
+	git push -u origin feature_branch_name
